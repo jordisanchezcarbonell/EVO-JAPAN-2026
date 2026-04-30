@@ -3,6 +3,7 @@ import { getSpanishPlayers } from "@/lib/startgg";
 import { getSpanishPlayerResults } from "@/lib/startgg-results";
 import { PlayerList } from "@/components/PlayerList";
 import { TwitchStream } from "@/components/TwitchStream";
+import { Schedule } from "@/components/Schedule";
 import type { PlayerWithResults } from "@/lib/types";
 
 // Resultados dinámicos: revalidar cada 5 min
@@ -26,13 +27,24 @@ export default function Page() {
           <span className="text-[var(--color-muted)]">/26</span>
         </h1>
         <p className="mt-4 max-w-xl font-mono text-xs leading-relaxed text-[var(--color-muted)]">
-          Lista de jugadores con país <span className="text-[var(--color-fg)]">Spain</span> en su
+          Lista de jugadores con país <span className="text-[var(--color-fg)]">España</span> en su
           perfil de start.gg, inscritos en cualquier evento del torneo. Datos vía API oficial,
-          resultados actualizados cada 5 min.
+          resultados actualizados cada 5 min. Horarios por{" "}
+          <a
+            href="https://twitter.com/ariinsane"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--color-amarillo)] hover:underline"
+          >
+            @ariinsane
+          </a>
+          .
         </p>
       </header>
 
       <TwitchStream channel="elmovimentondulatori" />
+
+      <Schedule />
 
       <Suspense fallback={<PlayerListFallback />}>
         <PlayerListSection />
@@ -87,13 +99,6 @@ async function PlayerListSection() {
       <div className="mb-6 flex flex-wrap items-center gap-x-8 gap-y-2 font-mono text-[11px] uppercase tracking-widest text-[var(--color-muted)]">
         <Stat label="Españoles" value={players.length} accent />
         <Stat label="Total attendees" value={scannedTotal.toLocaleString("es-ES")} />
-        <Stat
-          label="Generado"
-          value={new Date(generatedAt).toLocaleString("es-ES", {
-            dateStyle: "short",
-            timeStyle: "short",
-          })}
-        />
       </div>
       <PlayerList players={playersWithResults} />
     </>
