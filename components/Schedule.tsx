@@ -86,6 +86,15 @@ export function Schedule() {
         >
           @ariinsane
         </a>
+        {" · "}
+        <a
+          href="https://docs.google.com/spreadsheets/d/106Sl_GC2DWd3ZkEo5PBJAVXUcHdnE5y7tIMX1uA8Nt8/edit?gid=0#gid=0"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[var(--color-amarillo)] hover:underline"
+        >
+          ver spreadsheet ↗
+        </a>
       </p>
 
       <div className="overflow-x-auto border border-[var(--color-line)]">
