@@ -1,0 +1,300 @@
+{
+  "players": [
+    {
+      "id": "21011743",
+      "gamertag": "Albur",
+      "realName": "Miquel Alburquerque Marín",
+      "city": "Palma de Mallorca",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1520640,
+          "eventName": "2XKO",
+          "entrantId": 22866846
+        },
+        {
+          "eventId": 1516507,
+          "eventName": "Granblue Fantasy Versus: Rising",
+          "entrantId": 22866844
+        },
+        {
+          "eventId": 1516508,
+          "eventName": "Guilty Gear: Strive",
+          "entrantId": 22866845
+        }
+      ],
+      "twitter": "AlburQQQ",
+      "twitch": "AlburQQ",
+      "discord": "Albur#5321",
+      "startggUserId": "134186"
+    },
+    {
+      "id": "20720128",
+      "gamertag": "epBusta",
+      "realName": null,
+      "city": "Haro",
+      "state": null,
+      "country": "Spain",
+      "events": [],
+      "twitter": null,
+      "twitch": null,
+      "discord": "epbusta",
+      "startggUserId": "3272561"
+    },
+    {
+      "id": "20501891",
+      "gamertag": "Faabi",
+      "realName": null,
+      "city": "Iniesta",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1520640,
+          "eventName": "2XKO",
+          "entrantId": 22303008
+        },
+        {
+          "eventId": 1516510,
+          "eventName": "Street Fighter 6",
+          "entrantId": 22303005
+        },
+        {
+          "eventId": 1516511,
+          "eventName": "TEKKEN 8",
+          "entrantId": 22303007
+        }
+      ],
+      "twitter": null,
+      "twitch": null,
+      "discord": "faabi_ss",
+      "startggUserId": "431769"
+    },
+    {
+      "id": "20932353",
+      "gamertag": "Galletas",
+      "realName": "Luca Calderaro",
+      "city": "Barcelona",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1520640,
+          "eventName": "2XKO",
+          "entrantId": 22782430
+        },
+        {
+          "eventId": 1516496,
+          "eventName": "Fist of the North Star",
+          "entrantId": 22782429
+        }
+      ],
+      "twitter": "LVPGalletas",
+      "twitch": null,
+      "discord": null,
+      "startggUserId": "468267"
+    },
+    {
+      "id": "20924291",
+      "gamertag": "GenisGod",
+      "realName": "Carles Rams Morillo",
+      "city": "Mollet del Vallès",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1520640,
+          "eventName": "2XKO",
+          "entrantId": 22773670
+        }
+      ],
+      "twitter": "GenisGod_FGC",
+      "twitch": null,
+      "discord": null,
+      "startggUserId": "576482"
+    },
+    {
+      "id": "20302587",
+      "gamertag": "MKJavierMK",
+      "realName": "Javier Alonso Rodriguez",
+      "city": "Arrecife",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1516506,
+          "eventName": "Fatal Fury: City of the Wolves",
+          "entrantId": 22088366
+        }
+      ],
+      "twitter": "MKJavierMK",
+      "twitch": "mkjaviermk",
+      "discord": "mkjaviermk",
+      "startggUserId": "612154"
+    },
+    {
+      "id": "20501890",
+      "gamertag": "Moscamulera",
+      "realName": "Francisco Javier Martínez Talavera",
+      "city": "Valencia",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1520640,
+          "eventName": "2XKO",
+          "entrantId": 22303004
+        },
+        {
+          "eventId": 1516510,
+          "eventName": "Street Fighter 6",
+          "entrantId": 22303003
+        }
+      ],
+      "twitter": "Moscamulera_",
+      "twitch": "Moscamulera_",
+      "discord": "Moscamulera#3364",
+      "startggUserId": "700812"
+    },
+    {
+      "id": "20916079",
+      "gamertag": "Piguapero",
+      "realName": null,
+      "city": "Gijón",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1516501,
+          "eventName": "Under Night In-Birth II Sys:Celes",
+          "entrantId": 22763910
+        }
+      ],
+      "twitter": null,
+      "twitch": null,
+      "discord": null,
+      "startggUserId": "849289"
+    },
+    {
+      "id": "20774480",
+      "gamertag": "rmoragar",
+      "realName": "Rafael Moraga",
+      "city": null,
+      "state": null,
+      "country": "Spain",
+      "events": [],
+      "twitter": "rmoragarSSB",
+      "twitch": "rmoragar",
+      "discord": "rmoragar",
+      "startggUserId": "877322"
+    },
+    {
+      "id": "21059343",
+      "gamertag": "Saryus",
+      "realName": null,
+      "city": "Barcelona",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1520640,
+          "eventName": "2XKO",
+          "entrantId": 22917851
+        }
+      ],
+      "twitter": "bSaryus",
+      "twitch": "Saryus",
+      "discord": ".saryus",
+      "startggUserId": "1263449"
+    },
+    {
+      "id": "20934535",
+      "gamertag": "Sh4rin",
+      "realName": "Javier Sanabria",
+      "city": "Desengaño 21",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1520640,
+          "eventName": "2XKO",
+          "entrantId": 22784708
+        },
+        {
+          "eventId": 1516496,
+          "eventName": "Fist of the North Star",
+          "entrantId": 22927914
+        },
+        {
+          "eventId": 1516510,
+          "eventName": "Street Fighter 6",
+          "entrantId": 22784703
+        }
+      ],
+      "twitter": "Sh4rin_Papito",
+      "twitch": null,
+      "discord": "Sh4rin#0739",
+      "startggUserId": "574764"
+    },
+    {
+      "id": "20556404",
+      "gamertag": "Shanks",
+      "realName": "Joan N.",
+      "city": "Las Palmas de Gran Canaria",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1520640,
+          "eventName": "2XKO",
+          "entrantId": 22362896
+        }
+      ],
+      "twitter": "shanksfgc",
+      "twitch": null,
+      "discord": null,
+      "startggUserId": "409206"
+    },
+    {
+      "id": "20558602",
+      "gamertag": "SrtaErona",
+      "realName": "Melany Gil",
+      "city": "Las Palmas de Gran Canaria",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1520640,
+          "eventName": "2XKO",
+          "entrantId": 22365374
+        }
+      ],
+      "twitter": "MelanyGilGil",
+      "twitch": null,
+      "discord": "srtaerona",
+      "startggUserId": "1209688"
+    },
+    {
+      "id": "20957900",
+      "gamertag": "Tibetano",
+      "realName": "Jonathan Medina",
+      "city": "Barcelona",
+      "state": null,
+      "country": "Spain",
+      "events": [
+        {
+          "eventId": 1516511,
+          "eventName": "TEKKEN 8",
+          "entrantId": 22809688
+        }
+      ],
+      "twitter": "Tibetanotk",
+      "twitch": "TibetanoTK",
+      "discord": "tibetanotk",
+      "startggUserId": "562839"
+    }
+  ],
+  "scannedTotal": 10231,
+  "generatedAt": "2026-04-30T15:08:02.223Z"
+}

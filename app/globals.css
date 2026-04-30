@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0a0a0c;
+  --color-surface: #131318;
+  --color-surface-2: #1c1c24;
+  --color-line: #2a2a36;
+  --color-fg: #f4f4f5;
+  --color-muted: #8a8a99;
+  --color-rojo: #e63946;     /* rojo bandera, ligeramente desaturado */
+  --color-amarillo: #ffc233; /* amarillo */
+  --color-accent: #ffc233;
+
+  --font-display: "Big Shoulders Display", "Impact", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+  --font-sans: "Inter Tight", system-ui, sans-serif;
+}
+
+@layer base {
+  html, body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* sutil grain de fondo */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background-image:
+      radial-gradient(ellipse at top, rgba(230, 57, 70, 0.08), transparent 60%),
+      radial-gradient(ellipse at bottom right, rgba(255, 194, 51, 0.05), transparent 50%);
+  }
+
+  ::selection {
+    background: var(--color-amarillo);
+    color: #0a0a0c;
+  }
+}
