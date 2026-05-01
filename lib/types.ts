@@ -29,6 +29,7 @@ export type EventStanding = {
   eventName: string;
   placement: number | null;
   isFinal: boolean;
+  entrantId: number;
 };
 
 export type SetResult = {

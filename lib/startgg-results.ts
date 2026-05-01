@@ -137,6 +137,7 @@ async function fetchEventStandings(
         eventName: data.event!.name,
         placement: node.placement,
         isFinal: node.isFinal,
+        entrantId: node.entrant.id,
       });
     }
 
@@ -276,13 +277,10 @@ export async function getSpanishPlayerResults(
   }
 
   for (const s of allStandings) {
-    // Buscar a qué jugador corresponde este standing
-    for (const p of players) {
-      const ev = p.events.find((e) => e.eventId === s.eventId);
-      if (ev) {
-        const key = p.startggUserId ?? p.id;
-        result.get(key)!.standings.push(s);
-      }
+    // Buscar a qué jugador corresponde este standing usando entrantId
+    const playerId = entrantToPlayer.get(s.entrantId);
+    if (playerId) {
+      result.get(playerId)!.standings.push(s);
     }
   }
 

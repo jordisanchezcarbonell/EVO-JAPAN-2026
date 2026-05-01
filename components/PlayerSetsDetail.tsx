@@ -1,6 +1,7 @@
 "use client";
 
 import type { SetResult } from "@/lib/types";
+import { shortGame } from "@/lib/short-game";
 
 export function PlayerSetsDetail({
   sets,
@@ -83,21 +84,3 @@ export function PlayerSetsDetail({
   );
 }
 
-function shortGame(name: string): string {
-  const map: Record<string, string> = {
-    "Street Fighter 6": "SF6",
-    "Tekken 8": "TEKKEN 8",
-    "Guilty Gear -Strive-": "GGST",
-    "Guilty Gear Strive": "GGST",
-    "Fatal Fury: City of the Wolves": "FF:CotW",
-    "Granblue Fantasy Versus: Rising": "GBVSR",
-    "The King of Fighters XV": "KOF XV",
-    "Melty Blood: Type Lumina": "MBTL",
-    "Under Night In-Birth II Sys:Celes": "UNI2",
-    "Vampire Savior": "VSAV",
-    "Virtua Fighter 5 R.E.V.O.": "VF5",
-    "Hokuto no Ken": "HNK",
-    "2XKO": "2XKO",
-  };
-  return map[name] ?? name;
-}
